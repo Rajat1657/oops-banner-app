@@ -1,41 +1,65 @@
-# OOPS Banner App (UC5)
+# OOPS Banner App (UC6)
 
 ## Description
-OOPS Banner App (UC5) is a Java console application that renders the word **"OOPS"** as an ASCII banner using inline array initialization.
+OOPS Banner App (UC6) is a Java console application that renders the word **"OOPS"** as an ASCII banner.
 
-This version focuses on writing cleaner and more concise code by initializing the array directly at the time of declaration.
+This version refactors the banner logic into separate functions to improve modularity, readability, and maintainability.
 
 ---
 
 ## Author
 Rajat  
 
-Version: 5.0
+Version: 6.0
 
 ---
 
 ## Objective
-- Demonstrate inline array initialization in Java
-- Use `String.join()` for formatted string output
-- Implement enhanced for-loop (for-each loop)
-- Improve code readability and structure
+- Demonstrate method creation in Java
+- Refactor repetitive logic into reusable functions
+- Use `String.join()` for formatted output
+- Apply structured and modular programming principles
 
 ---
 
 ## Program Structure
-- A `String[]` array named `banner` is initialized inline with 7 formatted lines.
-- Each line is constructed using `String.join()` to maintain spacing.
-- A for-each loop iterates through the array and prints each line to the console.
+
+### 1. main()
+- Calls `buildLine()` for each row (0–6)
+- Stores results in an array
+- Prints each line using a for-each loop
+
+### 2. buildLine(int row)
+- Assembles a full banner row
+- Combines letter patterns using `String.join()`
+
+### 3. Letter Pattern Methods
+- `getOPattern(int row)`
+- `getPPattern(int row)`
+- `getSPattern(int row)`
+
+Each method:
+- Stores the ASCII design of the letter in an array
+- Returns the appropriate row based on the index
+
+---
+
+## Key Concepts Used
+- Method creation and reuse
+- Functional decomposition
+- Arrays
+- `String.join()`
+- Enhanced for-loop
+- Clean code structure
 
 ---
 
 ## Requirements
-- Java 8 or above
-- Any IDE (IntelliJ, Eclipse, VS Code) or Command Line
+- Java 8 or higher
 
 ---
 
-## Compilation and Execution
+## How to Compile and Run
 
 ### Compile:
 ```bash
@@ -49,9 +73,7 @@ java OOPSBannerApp
 
 ---
 
-## Concepts Used
-- Inline Array Initialization
-- Arrays in Java
-- Enhanced For Loop
-- `String.join()`
-- Console Output Formatting
+## Output
+The program prints a structured ASCII banner of the word:
+
+OOPS
