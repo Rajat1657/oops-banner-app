@@ -1,9 +1,9 @@
 # OOPS Banner App (UC5)
 
 ## Description
-OOPS Banner App (UC5) is a Java console application that prints a stylized "OOPS" banner using inline array initialization.
+OOPS Banner App (UC5) is a Java console application that renders the word **"OOPS"** as an ASCII banner using inline array initialization.
 
-This version enhances code readability and structure by initializing the banner array at the time of declaration.
+This version focuses on writing cleaner and more concise code by initializing the array directly at the time of declaration.
 
 ---
 
@@ -15,27 +15,27 @@ Version: 5.0
 ---
 
 ## Objective
-To demonstrate:
-- Inline array initialization in Java
-- Use of `String.join()` for formatting
-- Enhanced for-loop (for-each loop)
-- Clean and maintainable code structure
+- Demonstrate inline array initialization in Java
+- Use `String.join()` for formatted string output
+- Implement enhanced for-loop (for-each loop)
+- Improve code readability and structure
 
 ---
 
-## How It Works
-- A `String[]` array is initialized inline with 7 formatted banner lines.
-- Each line uses `String.join()` to space the letters properly.
-- A for-each loop prints each line to the console.
+## Program Structure
+- A `String[]` array named `banner` is initialized inline with 7 formatted lines.
+- Each line is constructed using `String.join()` to maintain spacing.
+- A for-each loop iterates through the array and prints each line to the console.
 
 ---
 
 ## Requirements
-- Java 8 or higher
+- Java 8 or above
+- Any IDE (IntelliJ, Eclipse, VS Code) or Command Line
 
 ---
 
-## How to Compile and Run
+## Compilation and Execution
 
 ### Compile:
 ```bash
@@ -49,16 +49,9 @@ java OOPSBannerApp
 
 ---
 
-## Sample Output
-```
-(ASCII banner of OOPS printed in console)
-```
-
----
-
 ## Concepts Used
-- Inline array initialization
-- Arrays
-- For-each loop
+- Inline Array Initialization
+- Arrays in Java
+- Enhanced For Loop
 - `String.join()`
-- Console output formatting
+- Console Output Formatting
