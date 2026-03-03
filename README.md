@@ -1,26 +1,33 @@
-# OOPS Banner App
+# OOPS Banner App (UC4)
 
 ## Description
-OOPS Banner App is a simple Java program that prints a stylized "OOPS" banner in the console using `String.join()`.
+OOPS Banner App (UC4) is a Java console application that prints a stylized "OOPS" banner using arrays and `String.join()`.
 
-This project demonstrates:
-- Basic Java program structure
-- Use of the `main` method
-- Usage of `String.join()` for formatted console output
-- Simple ASCII art formatting
+This version improves structure by storing each line of the banner in an array and printing it using a loop.
 
 ---
 
 ## Author
 Rajat  
 
-Version: 3.0
+Version: 4.0
+
+---
+
+## Objective
+To demonstrate:
+- Use of arrays in Java
+- Enhanced for-loop (for-each loop)
+- `String.join()` for formatted output
+- Clean and organized console printing
 
 ---
 
 ## How It Works
-The program prints the word **OOPS** in a decorative ASCII banner format.  
-Each line of the banner is constructed using `String.join()` to combine multiple string segments with spacing.
+- A `String[]` array of size 7 is created.
+- Each index stores one line of the ASCII banner.
+- `String.join()` is used to format the letters with spacing.
+- A for-each loop prints each line of the banner.
 
 ---
 
@@ -45,14 +52,13 @@ java OOPSBannerApp
 
 ## Sample Output
 ```
-OOPS
-<ASCII Banner Output>
+(ASCII banner of OOPS printed in console)
 ```
 
 ---
 
 ## Concepts Used
-- Classes and Objects (OOP structure)
-- `public static void main`
-- `System.out.println`
+- Arrays
+- For-each loop
 - `String.join()`
+- Console output formatting
