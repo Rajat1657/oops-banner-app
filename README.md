@@ -1,33 +1,32 @@
-# OOPS Banner App (UC4)
+# OOPS Banner App (UC5)
 
 ## Description
-OOPS Banner App (UC4) is a Java console application that prints a stylized "OOPS" banner using arrays and `String.join()`.
+OOPS Banner App (UC5) is a Java console application that prints a stylized "OOPS" banner using inline array initialization.
 
-This version improves structure by storing each line of the banner in an array and printing it using a loop.
+This version enhances code readability and structure by initializing the banner array at the time of declaration.
 
 ---
 
 ## Author
 Rajat  
 
-Version: 4.0
+Version: 5.0
 
 ---
 
 ## Objective
 To demonstrate:
-- Use of arrays in Java
+- Inline array initialization in Java
+- Use of `String.join()` for formatting
 - Enhanced for-loop (for-each loop)
-- `String.join()` for formatted output
-- Clean and organized console printing
+- Clean and maintainable code structure
 
 ---
 
 ## How It Works
-- A `String[]` array of size 7 is created.
-- Each index stores one line of the ASCII banner.
-- `String.join()` is used to format the letters with spacing.
-- A for-each loop prints each line of the banner.
+- A `String[]` array is initialized inline with 7 formatted banner lines.
+- Each line uses `String.join()` to space the letters properly.
+- A for-each loop prints each line to the console.
 
 ---
 
@@ -58,6 +57,7 @@ java OOPSBannerApp
 ---
 
 ## Concepts Used
+- Inline array initialization
 - Arrays
 - For-each loop
 - `String.join()`

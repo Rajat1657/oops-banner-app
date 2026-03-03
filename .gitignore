@@ -1,9 +1,5 @@
-# Java compiled files
 *.class
-
-# Logs
 *.log
-
-# IDE files (VS Code / IntelliJ)
-.vscode/
+.DS_Store
 .idea/
+.vscode/
